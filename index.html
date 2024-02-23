@@ -30,6 +30,11 @@
   h1 {font-weight: 700;}
   a {color: #64b145;}
   p {padding-bottom: 10px;}
+  .flex {display: flex; flex-wrap: wrap;}
+  .flex .flex-1-2 {width: 100%;}
+  @media all and (min-width: 1024px) {
+    .flex .flex-1-2 {width: 50%;}
+  }
 
 </style>
 </head>
@@ -42,18 +47,18 @@
           <p>The smell of sawdust from a construction site. The warmth of a crackling fireplace. Fresh fruit from a roadside produce stand. Oxygen. The Cross of Calvary. The basic elements of our existence include food, air, shelter, and faith — all of which can be associated with trees. We could therefore think of no better name for a real estate company than Living Tree Real Estate LLC.</p>
           <p>Living Tree Real Estate provides commercial and residential real estate brokerage and consulting services throughout West Michigan. We understand that real estate is a place where you operate the business in which you have invested your future or grow your own family tree. We appreciate that a real estate transaction is a personal and often emotional experience for both sides of the table and we believe in learning and understanding our clients’ needs and goals, above and beyond a simple list of properties and prices.</p>
           <p>Living Tree Real Estate looks forward to the opportunity to assist you with your real estate needs. We strive to be your trusted real estate advisor. Please feel free to contact us to schedule a consultation.</p>
-          <div style="display: flex;">
-            <div style="width: 50%;">
+          <div class="flex">
+            <div class="flex-1-2">
               <h1 style="font-size:24px; padding-top: 40px;">Adam J. Sheridan</h1>
               <p>Member and Associate Broker<p>
-              <a href="tel:6163040987">616-304-0987</a><br>
-              <a href="mailto:adam.sheridan@livingtreerealestate.com">adam.sheridan@livingtreerealestate.com</a>
+              <a style="font-size: .75rem;" href="tel:6163040987">616-304-0987</a><br>
+              <a style="font-size: .75rem;" href="mailto:adam.sheridan@livingtreerealestate.com">adam.sheridan@livingtreerealestate.com</a>
             </div>
-            <div style="width: 50%;">
+            <div class="flex-1-2">
               <h1 style="font-size:24px; padding-top: 40px;">Kathlene A. Sheridan</h1>
               <p>Salesperson<p>
-              <a href="tel:616-304-0997">616-304-0997</a><br>
-              <a href="mailto:kathlene.sheridan@livingtreerealestate.com">kathlene.sheridan@livingtreerealestate.com</a>
+              <a style="font-size: .75rem;" href="tel:616-304-0997">616-304-0997</a><br>
+              <a style="font-size: .75rem;" href="mailto:kathlene.sheridan@livingtreerealestate.com">kathlene.sheridan@livingtreerealestate.com</a>
             </div>
           </div>
       </main>
